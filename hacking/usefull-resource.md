@@ -10,40 +10,35 @@ description: >-
 
 ### Multipurposes
 
-```
-https://censys.io/
-https://www.yougetsignal.com/
-https://app.netlas.io/
-https://shodan.io/
-https://fullhunt.io/
-https://www.zoomeye.org/
-https://leakix.net/
-https://www.criminalip.io/
-https://intelx.io/
-https://onyphe.io/
-https://pentest-tools.com/
-https://domaineye.com/
-```
+Link dibawah ini sangat berguna untuk kebutuhan pasive reconnaissance, yang dimana mereka merupakan Internet Intelligence Platform yang dapat yang menyediakan banyak data yang terekspos di internet.
+
+* [https://censys.io/](https://censys.io/https://www.yougetsignal.com/https://app.netlas.io/https://shodan.io/https://fullhunt.io/https://www.zoomeye.org/https://leakix.net/https://www.criminalip.io/https://intelx.io/https://onyphe.io/https://pentest-tools.com/https://domaineye.com/)
+* [https://www.yougetsignal.com/](https://censys.io/https://www.yougetsignal.com/https://app.netlas.io/https://shodan.io/https://fullhunt.io/https://www.zoomeye.org/https://leakix.net/https://www.criminalip.io/https://intelx.io/https://onyphe.io/https://pentest-tools.com/https://domaineye.com/)
+* [https://app.netlas.io/](https://censys.io/https://www.yougetsignal.com/https://app.netlas.io/https://shodan.io/https://fullhunt.io/https://www.zoomeye.org/https://leakix.net/https://www.criminalip.io/https://intelx.io/https://onyphe.io/https://pentest-tools.com/https://domaineye.com/)
+* [https://shodan.io/](https://shodan.io/)
+* [https://fullhunt.io/](https://fullhunt.io/)
+* [https://www.zoomeye.org/](https://www.zoomeye.org/)
+* [https://leakix.net/](https://leakix.net/)
+* [https://www.criminalip.io/](https://www.criminalip.io/)
+* [https://intelx.io/](https://intelx.io/)
+* [https://onyphe.io/](https://onyphe.io/)
+* [https://pentest-tools.com/](https://pentest-tools.com/)
+* [https://domaineye.com/](https://domaineye.com/)
 
 ### Identify Company/Organization Detail
 
-```
-https://www.crunchbase.com/
-https://www.linkedin.com/search/results/companies/?keywords=<target>
-https://glints.com/
-https://www.signalhire.com
-https://www.apollo.io/
-https://companieshouse.id/
-```
+Kadang kita juga perlu tahu detail sebuah company atau organisasi untuk mendapatkan informasi ekstra seperti contohnya orang ada didalam sebuah company atau organisasi tersebut. link dibawah ini dapat digunakan untuk mendapatkan informasi tersebut
+
+* [https://www.crunchbase.com/](https://www.crunchbase.com/)
+* [https://www.linkedin.com/search/results/companies/?keywords=\<target>](https://www.linkedin.com/search/results/companies/?keywords=%3Ctarget%3E)
+* [https://glints.com/](https://glints.com/)
+* [https://www.signalhire.com](https://www.signalhire.com)
+* [https://www.apollo.io/](https://www.apollo.io/)
+* [https://companieshouse.id/](https://companieshouse.id/)
 
 ### Code Search Engine
 
-```
-https://publicwww.com/
-https://grep.app/
-https://github.com/
-https://searchcode.com
-```
+
 
 ### Find E-Mail
 
