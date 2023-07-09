@@ -1,8 +1,10 @@
 ---
-description: Open Source Intelligence
+description: >-
+  Beberapa sumber atau tools online yang berguna pada saat OSINT / Recon /
+  Information Gathering.
 ---
 
-# OSINT
+# Usefull Resource
 
 ## Public Resources
 
