@@ -4,13 +4,13 @@ description: >-
   Information Gathering.
 ---
 
-# Usefull Resource
+# Usefull Online Source
 
 ## Public Resources
 
 ### Multipurposes
 
-Link dibawah ini sangat berguna untuk kebutuhan pasive reconnaissance, yang dimana mereka merupakan Internet Intelligence Platform yang dapat yang menyediakan banyak data yang terekspos di internet.
+sumber dibawah ini sangat berguna untuk kebutuhan pasive reconnaissance, yang dimana mereka merupakan Internet Intelligence Platform yang dapat yang menyediakan banyak data yang terekspos di internet.
 
 * [https://censys.io/](https://censys.io/https://www.yougetsignal.com/https://app.netlas.io/https://shodan.io/https://fullhunt.io/https://www.zoomeye.org/https://leakix.net/https://www.criminalip.io/https://intelx.io/https://onyphe.io/https://pentest-tools.com/https://domaineye.com/)
 * [https://www.yougetsignal.com/](https://censys.io/https://www.yougetsignal.com/https://app.netlas.io/https://shodan.io/https://fullhunt.io/https://www.zoomeye.org/https://leakix.net/https://www.criminalip.io/https://intelx.io/https://onyphe.io/https://pentest-tools.com/https://domaineye.com/)
@@ -27,7 +27,7 @@ Link dibawah ini sangat berguna untuk kebutuhan pasive reconnaissance, yang dima
 
 ### Identify Company/Organization Detail
 
-Kadang kita juga perlu tahu detail sebuah company atau organisasi untuk mendapatkan informasi ekstra seperti contohnya orang ada didalam sebuah company atau organisasi tersebut. link dibawah ini dapat digunakan untuk mendapatkan informasi tersebut
+Kadang kita juga perlu tahu detail sebuah company atau organisasi untuk mendapatkan informasi ekstra seperti contohnya orang ada didalam sebuah company atau organisasi tersebut. submber dibawah ini dapat digunakan untuk mendapatkan informasi tersebut
 
 * [https://www.crunchbase.com/](https://www.crunchbase.com/)
 * [https://www.linkedin.com/search/results/companies/?keywords=\<target>](https://www.linkedin.com/search/results/companies/?keywords=%3Ctarget%3E)
@@ -38,35 +38,40 @@ Kadang kita juga perlu tahu detail sebuah company atau organisasi untuk mendapat
 
 ### Code Search Engine
 
+Sumber berikut ini dapat digunakan untuk mendapatkan informasi dari sebuah source code atau syntax, jika beruntung kita bisa saja mendapatkan source code target yang terekspos
 
+* [https://publicwww.com/](https://publicwww.com/)
+* [https://github.com/](https://github.com/)
+* [https://grep.app/](https://grep.app/)
+* [https://searchcode.com](https://searchcode.com)
 
 ### Find E-Mail
 
-```
-https://hunter.io
-https://thatsthem.com/reverse-email-lookup
-https://www.voilanorbert.com/
-http://www.skymem.info/
-```
+Sumber berikut ini sangat cocok untuk volunteer vulnerability disclosure atau bug hunter dalam mencari kontak developer atau pemilik asset sebuah target
+
+* [https://hunter.io](https://hunter.io)
+* [https://thatsthem.com/reverse-email-lookup](https://thatsthem.com/reverse-email-lookup)
+* [https://www.voilanorbert.com/](https://www.voilanorbert.com/)
+* [http://www.skymem.info/](http://www.skymem.info/)
 
 ### Username Search Engine
 
-```
-https://checkusernames.com/
-https://instantusername.com/
-```
+sumber dibawah ini sangat cocok untuk mencari akun target pada social media atau platform lain.&#x20;
+
+* [https://checkusernames.com/](https://checkusernames.com/)
+* [https://instantusername.com/](https://instantusername.com/)
 
 ### Exif Data
 
-```
-https://exif-viewer.com
-```
+Sumber dibawah ini digunakan untuk melihat atau menampilkan exif data dari sebuah file
+
+* [https://exif-viewer.com](https://exif-viewer.com)
 
 ### Find Secret API Key
 
-```
-https://serene-agnesi-57a014.netlify.app/
-```
+sumber ini untuk mencari Secret API KEY, sangat memudahkan dalam melakukan static analyst
+
+* [https://serene-agnesi-57a014.netlify.app/](https://serene-agnesi-57a014.netlify.app/)
 
 ### API Search Engine
 
@@ -81,7 +86,7 @@ https://www.postman.com/explore/
 https://www.immuniweb.com/darkweb/
 ```
 
-### Tehcnology Profiler
+### Tehcnology Identifier
 
 ```
 https://www.wappalyzer.com/

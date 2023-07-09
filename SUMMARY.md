@@ -6,7 +6,7 @@
 
 ## 🔓 Hacking
 
-* [Usefull Resource](hacking/usefull-resource.md)
+* [Usefull Online Source](hacking/usefull-online-source.md)
 * [Reconnaissance](hacking/reconnaissance/README.md)
   * [Host Discovery](hacking/reconnaissance/host-discovery.md)
   * [OS Fingerprinting](hacking/reconnaissance/os-fingerprinting.md)
