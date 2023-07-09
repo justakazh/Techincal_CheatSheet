@@ -1,19 +1,18 @@
----
-cover: .gitbook/assets/image (15).png
-coverY: 0
----
+# 🔥 Technical CheatSheet
 
-# 🔥 HackStreet
+**Introduction**
 
-**Selamat Datang!**
+CheatSheet ini dibuat dengan bahasa jaksel, yang dimana bahasa yang digunakan adalah Indonesia-English akan tetapi kebanyakan berbahasa indonesia. If you dont know about this language you can use google translate or you should  go to tebet city for learning about jaksel language.
 
-### Apa itu HackStreet?
+CheatSheet mungkin agak berantakan dalam tata letak, penyesuaian kategori dan tipe pada topik karena catatan ini saya bikin dengan tata letak yang asal-asalan. mungkin suatu saat kalo udah agak lengkap dan ada waktu luang akan saya rapihkan.
 
-HackStreet adalah catatan yang saya buat untuk mendukung pekerjaan saya sebagai pentester. HackStreet saya ambil dari berbagai source yang saya temukan seperti facebook, twitter, komunitas, forum-forum information security, serta hal menarik yang saya temukan. Catatan ini juga tempat saya untuk menuangkan ilmu saya kepada anda yang ingin belajar dan berkecimpung didunia Hacking secara **GRATIS**!
+**Hekermen**
 
-### Apakah HackStreet Selalu Update?
+jika kalian datang kesini melalui website **Hekermen**, pastinya kalian ingin belajar tentang cyber security, jadi CheatSheet ini mungkin cocok untuk menambah insight kalian.
 
-Saya akan selalu melakukan update terhadap catatan ini, baik itu methode baru yang saya temukan atau source baru yang saya temukan akan saya tulis pada catatan ini.
+
+
+
 
 
 
