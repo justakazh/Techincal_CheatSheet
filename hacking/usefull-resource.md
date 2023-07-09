@@ -6,7 +6,9 @@ description: >-
 
 # Usefull  Resource
 
-## Public Resources
+## Web Based
+
+Beberapa sumber berguna berbasis web yang dapat digunakan untuk mendapatkan informasi dan mempercepat pekerjaan.&#x20;
 
 ### Multipurposes
 
@@ -75,16 +77,16 @@ sumber ini untuk mencari Secret API KEY, sangat memudahkan dalam melakukan stati
 
 ### API Search Engine
 
-```
-https://rapidapi.com/
-https://www.postman.com/explore/
-```
+Sumber ini untuk mencari API pada target, sangat berguna untuk mendapatkan informasi endpoint dan memperluas serangan
+
+* [https://rapidapi.com/](https://rapidapi.com/)
+* [https://www.postman.com/explore/](https://www.postman.com/explore/)
 
 ### Darkweb Exposure Check
 
-```
-https://www.immuniweb.com/darkweb/
-```
+Sumber ini dapat digunakan untuk mengecheck kebocoran data pada target, tentunya kita bisa mendapatkan juicy information milik target
+
+* [https://www.immuniweb.com/darkweb/](https://www.immuniweb.com/darkweb/)
 
 ### Tehcnology Identifier
 
@@ -94,16 +96,24 @@ https://www.wappalyzer.com/
 
 ## Dorks
 
+Beberapa dork yang dapat digunakan untuk mendapatkan informasi yang terekspos pada search engine seperti google
+
 ### E-Mail Search&#x20;
+
+Mencari alamat email target company atau organisasi
 
 ```
 intext:"@target.tld" 
 intitle:"contact us" intext:"@target.tld"
 ```
 
-## Amass
+## CLI BASED
 
-{% embed url="https://github.com/OWASP/Amass" %}
+Beberapa tools berguna berbasis command line interface yang dapat digunakan untuk mendapatkan informasi dan mempercepat pekerjaan.&#x20;
+
+### Amass
+
+[https://github.com/owasp-amass/amass](https://github.com/owasp-amass/amass)
 
 ### Find ASN
 
@@ -118,3 +128,4 @@ amass intel -org "Tesla"
 amass intel -active -asn <asn number> -whois -d <domain>
 amass intel -active -asn 1337 -whois -d target.tld
 ```
+
