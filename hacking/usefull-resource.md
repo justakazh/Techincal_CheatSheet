@@ -4,7 +4,7 @@ description: >-
   Information Gathering.
 ---
 
-# Usefull Online Source
+# Usefull  Resource
 
 ## Public Resources
 
