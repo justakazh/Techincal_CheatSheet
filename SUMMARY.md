@@ -6,8 +6,8 @@
 
 ## 🔓 Hacking
 
+* [Usefull Resource](hacking/usefull-resource.md)
 * [Reconnaissance](hacking/reconnaissance/README.md)
-  * [Usefull Resource](hacking/reconnaissance/usefull-resource.md)
   * [Host Discovery](hacking/reconnaissance/host-discovery.md)
   * [OS Fingerprinting](hacking/reconnaissance/os-fingerprinting.md)
   * [Ports And Service](hacking/reconnaissance/ports-and-service.md)
