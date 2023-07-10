@@ -20,6 +20,7 @@
   * [URLs](hacking/reconnaissance/urls.md)
   * [CMS Detection](hacking/reconnaissance/cms-detection.md)
   * [Additional Weapons](hacking/reconnaissance/additional-weapons.md)
+  * [External Reconnaissance](hacking/reconnaissance/external-reconnaissance.md)
 * [Web Security Testing](hacking/web-security-testing/README.md)
   * [Common Vulnerabilities](hacking/web-security-testing/common-vulnerabilities/README.md)
     * [Cross Site Scripting](hacking/web-security-testing/common-vulnerabilities/cross-site-scripting.md)
