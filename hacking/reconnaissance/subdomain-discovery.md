@@ -2,28 +2,35 @@
 
 ## Subdomain Discovery
 
+Subdomain adalah bagian dari domain yang berada di depan domain utama, dipisahkan oleh tanda titik, misalnya : blog.example.com. Subdomain discovery adalah proses mencari dan mengidentifikasi subdomain yang terkait dengan sebuah domain utama.
+
+Proses subdomain discovery bertujuan untuk menemukan subdomain yang mungkin tersembunyi atau tidak diketahui, karena subdomain dapat digunakan untuk mengarahkan ke berbagai layanan, aplikasi, atau infrastruktur. Menemukan subdomain dapat memberikan informasi tambahan yang berguna dalam analisis keamanan, pemetaan infrastruktur, dan penilaian serangan.
+
+## Google Dorking
+
+kita bisa menggunakan google dorking untuk mendapatkan subdomain yang terindex pada search engine google&#x20;
+
+```
+site:*.example.com
+```
+
+## Brute&#x20;
+
+## Public Resources
 
 
-### Yusub
 
-### Basic Command
+
+
+##
+
+### [yusub](https://github.com/justakazh/yusub)
 
 ```
 yusub target.tld > domain
 ```
 
-### Sublist3r
-
-{% embed url="https://github.com/aboul3la/Sublist3r" %}
-
-#### Installation
-
-```
-git clone https://github.com/aboul3la/Sublist3r
-sudo pip install -r requirements.txt
-```
-
-#### Basic Command
+### [Sublist3r](https://github.com/aboul3la/Sublist3r)
 
 ```
 python sublist3r.py -d example.com
