@@ -4,13 +4,11 @@ description: 'Reconnaissance Method : Subdomain Discovery'
 
 # Subdomain Discovery
 
-## Passive
+## D
 
 ### Yusub
 
-{% embed url="https://github.com/justakazh/yusub" %}
-
-#### Basic Command
+### Basic Command
 
 ```
 yusub target.tld > domain

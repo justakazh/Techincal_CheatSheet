@@ -1,10 +1,10 @@
-# External Reconnaissance
+# Assets Discovery
 
-## Assets Discoveries
+## Assets Discovery
 
 Mengetahui informasi asset yang dimiliki oleh target merupakan hal yang cukup penting, yang dimana kita dapat memperluas scope dan meningkatkan tingkat keberhasilan untuk masuk kedalam sebuah sistem.&#x20;
 
-Beberapa benfit yang didapatkan dari kegiatan ini adalah :&#x20;
+Beberapa benefit yang didapatkan dari kegiatan ini adalah :&#x20;
 
 1. Mengetahui primary asset atau krusial oleh target
 2. Mengetahui informasi main company dari target
@@ -41,4 +41,3 @@ cara lain untuk mendapatkan informasi ASN target dengan menggunakan tools beriku
 ```
 amass intel -org "tesla"
 ```
-
