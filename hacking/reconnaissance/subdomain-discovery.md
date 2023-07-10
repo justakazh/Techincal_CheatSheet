@@ -2,11 +2,9 @@
 
 ## Subdomain Discovery
 
-Subdomain adalah bagian dari domain yang berada di depan domain utama, dipisahkan oleh tanda titik, misalnya : blog.example.com. Subdomain discovery adalah proses mencari dan mengidentifikasi subdomain yang terkait dengan sebuah domain utama.
+Subdomain adalah bagian dari domain yang berada di depan domain utama, dipisahkan oleh tanda titik, misalnya : blog.example.com. Subdomain discovery adalah proses mencari dan mengidentifikasi subdomain yang terkait dengan sebuah domain utama. subdomain discovery bertujuan untuk menemukan subdomain yang mungkin tersembunyi atau tidak diketahui, karena subdomain dapat digunakan untuk mengarahkan ke berbagai layanan, aplikasi, atau infrastruktur. dengan menemukan banyak subdomain dapat memberikan informasi tambahan yang berguna dalam analisis keamanan, pemetaan infrastruktur, dan penilaian serangan.
 
-Proses subdomain discovery bertujuan untuk menemukan subdomain yang mungkin tersembunyi atau tidak diketahui, karena subdomain dapat digunakan untuk mengarahkan ke berbagai layanan, aplikasi, atau infrastruktur. Menemukan subdomain dapat memberikan informasi tambahan yang berguna dalam analisis keamanan, pemetaan infrastruktur, dan penilaian serangan.
-
-## Google Dorking
+### Google Dorking
 
 kita bisa menggunakan google dorking untuk mendapatkan subdomain yang terindex pada search engine google&#x20;
 
@@ -14,15 +12,51 @@ kita bisa menggunakan google dorking untuk mendapatkan subdomain yang terindex p
 site:*.example.com
 ```
 
-## Brute&#x20;
+### Brute Force
 
-## Public Resources
+mencoba menemukan subdomain yang ada di bawah sebuah domain target dengan mencoba berbagai kombinasi subdomain secara otomatis dan melakukan pengecheckan terhadap response status HTTP.&#x20;
+
+#### [ffuf](https://github.com/ffuf/ffuf)
+
+```bash
+ffuf -w SecLists/Discovery/DNS/namelist.txt -u http://FUZZ.taget.tld 
+
+#virtual host
+ffuf -w SecLists/Discovery/DNS/namelist.txt -H "Host: FUZZ.site.com" -u http://taget.tld -fs {size}
+```
+
+#### [gobuster](https://github.com/OJ/gobuster)
+
+```bash
+gobuster dns -d target.tld -t 50 -w subdomains.txt
+```
+
+#### [shuffledns](https://github.com/projectdiscovery/shuffledns)
+
+```bash
+shuffledns -d target.tld -list subdomains.txt -r resolvers.txt
+```
+
+### DNS
+
+kita dapat menemukan subdomain dengan melakukan pengecheckan terhadap DNS. kita dapat melihat DNS Record yang menyimpan informasi penting tentang konfigurasi domain, seperti alamat IP, server mail, server name server (NS), catatan MX, dan sebagainya. selain itu kita juga bisa melakukan pengecheckan terhadap **Zone Transfer**.
+
+#### [dnsrecon](https://github.com/darkoperator/dnsrecon)
+
+```
+dnsrecon -a -d tesla.com
+```
+
+#### dig
+
+```
+dig target.tld
+dig axfr target.tld @server.target.tld
+```
 
 
 
 
-
-##
 
 ### [yusub](https://github.com/justakazh/yusub)
 
@@ -32,7 +66,7 @@ yusub target.tld > domain
 
 ### [Sublist3r](https://github.com/aboul3la/Sublist3r)
 
-```
+```bash
 python sublist3r.py -d example.com
 ```
 
