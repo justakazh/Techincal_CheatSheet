@@ -47,6 +47,12 @@ python domLink.py -D target.com -o target.out.txt
 amass intel -d tesla.com -whois
 ```
 
+ASN Reverse Whois
+
+```
+amass intel -asn 54888 -whois  -d tesla.com
+```
+
 #### [punter](https://github.com/nethunteros/punter)
 
 ```
@@ -70,3 +76,32 @@ udon -silent -json -s UA-33427076 | jq -c
 
 ### Favicon
 
+favicon adalah gambar kecil yang digunakan untuk mewakili sebuah situs web atau aplikasi di browser. Favicon memiliki hash unik dan dapat memberikan petunjuk atau indikasi tentang identitas dan karakteristik situs web target. &#x20;
+
+untuk mendapatkan hash dari favicon kita dapat menggunakan script berikut ini&#x20;
+
+```python
+import requests
+import mmh3
+
+response = requests.get("http://target.tld/favicon.ico")
+favicon = response.content.encode("base64")
+hash = mmh3.hash(favicon)
+print(hash)
+```
+
+#### Public Resources
+
+* [https://www.shodan.io/search?query=http.favicon.hash](https://www.shodan.io/search?query=http.favicon.hash%3A116323821):[\<hash>](https://www.shodan.io/search?query=)
+
+#### [favfreak](http://localhost:5000/s/aq0Im6nGlIt1tgViGqFC/page)
+
+```
+cat urls.txt | python3 favfreak.py -o output
+```
+
+#### [Shodan](https://help.shodan.io/command-line-interface/0-installation)
+
+```
+shodan search org:"Target" http.favicon.hash:116323821 --fields ip_str,port --separator " " | awk '{print $1":"$2}'
+```
