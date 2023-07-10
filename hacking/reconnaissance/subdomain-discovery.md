@@ -1,10 +1,8 @@
----
-description: 'Reconnaissance Method : Subdomain Discovery'
----
-
 # Subdomain Discovery
 
-## D
+## Subdomain Discovery
+
+
 
 ### Yusub
 
