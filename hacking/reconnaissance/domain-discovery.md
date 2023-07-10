@@ -4,16 +4,22 @@
 
 Pada tahap ini kita dapat melakukan identifikasi dan menemukan domain yang terkait dengan suatu entitas, seperti perusahaan, organisasi, atau individu.
 
-### Google Dorking
+### Search Engine
 
-kita bisa menemukan domain target dengan google dorking. kita dapat menggunakan informasi yang telah ditemukan sebelumnya pada tahap [assets-discovery.md](assets-discovery.md "mention").
+kita dapat mengembangkan informasi yang kita dapatkan pada tahap [assets-discovery.md](assets-discovery.md "mention")  menggunakan search engine untuk mendapatkan informasi domain yang dimiliki oleh target
 
 ```
 intext:"targetname"
 intitle:"targetname"
 ```
 
-biasanya referensi yang akan diberikan akan menampilkan atau menghubungkan pada domain target tersebut.
+#### Unique keyword
+
+kita juga dapat menggunakan keyword unik yang terdapat pada target, misalnya kita bisa menggunakan copyright yang biasanya terdapat pada footer
+
+```
+intext:"copyright @ <taget>"
+```
 
 ### Reverse Whois&#x20;
 
@@ -47,4 +53,20 @@ amass intel -d tesla.com -whois
 python main.py -t google.com
 ```
 
-##
+### Reverse Google Analytics
+
+Terkadang beberapa domain saling menggunakan owner Google Analiytic yang sama, hal ini dapat kita manfaatkan untuk menemukan domain lainnya yang dimiliki oleh target. selain itu Google Adsense juga dapat digunakan dalam kegiatan ini.
+
+#### Public Resources
+
+* [https://osint.sh/analytics/](https://osint.sh/analytics/)
+* [https://hackertarget.com/reverse-analytics-search/](https://hackertarget.com/reverse-analytics-search/)
+
+#### [udon](https://github.com/dhn/udon)
+
+```
+udon -silent -json -s UA-33427076 | jq -c
+```
+
+### Favicon
+
