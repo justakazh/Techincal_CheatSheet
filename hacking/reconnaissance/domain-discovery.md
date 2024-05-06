@@ -94,7 +94,7 @@ print(hash)
 
 * [https://www.shodan.io/search?query=http.favicon.hash](https://www.shodan.io/search?query=http.favicon.hash%3A116323821):[\<hash>](https://www.shodan.io/search?query=)
 
-#### [favfreak](http://localhost:5000/s/aq0Im6nGlIt1tgViGqFC/page)
+#### [favfreak](https://app.gitbook.com/s/aq0Im6nGlIt1tgViGqFC/page)
 
 ```
 cat urls.txt | python3 favfreak.py -o output
