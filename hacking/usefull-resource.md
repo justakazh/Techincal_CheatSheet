@@ -26,6 +26,7 @@ sumber dibawah ini sangat berguna untuk kebutuhan pasive reconnaissance, yang di
 * [https://onyphe.io/](https://onyphe.io/)
 * [https://pentest-tools.com/](https://pentest-tools.com/)
 * [https://domaineye.com/](https://domaineye.com/)
+* [Hudson Rock](https://www.hudsonrock.com/threat-intelligence-cybercrime-tools)
 
 ### Identify Company/Organization Detail
 
